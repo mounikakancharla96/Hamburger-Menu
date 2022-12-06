@@ -1,0 +1,22 @@
+.home-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-large-container {
+  display: none;
+}
+
+.home-small-container {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .home-large-container {
+    display: block;
+  }
+  .home-small-container {
+    display: none;
+  }
+}

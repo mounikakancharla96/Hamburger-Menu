@@ -1,0 +1,21 @@
+.about-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-container {
+  display: none;
+}
+.small-container {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .large-container {
+    display: block;
+  }
+  .small-container {
+    display: none;
+  }
+}
